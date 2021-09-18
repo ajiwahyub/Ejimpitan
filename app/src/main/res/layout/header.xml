@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/biru1"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:baselineAligned="false"
+        android:src="@drawable/ejimpitan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejimpitan"
+        android:textColor="#BADFD3D3"
+        android:textColorHighlight="#6BD6D1D1"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.ejimpitan.com"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

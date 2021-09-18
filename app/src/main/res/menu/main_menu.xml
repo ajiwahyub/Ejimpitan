@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_ambil"
+            android:icon="@drawable/ic_baseline_directions_walk_24"
+            android:title="Ambil jimpitan" />
+        <item
+            android:id="@+id/nav_riwayat"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="Riwayat Jimpitan" />
+        <item
+            android:id="@+id/nav_lapor"
+            android:icon="@drawable/ic_baseline_report_24"
+            android:title="Lapor Kerusakan" />
+    </group>
+
+
+        <item
+
+            android:title="Profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_baseline_play_for_work_24"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_person_24"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_reply_24"
+                    android:title="Logout" />
+                </group>
+            </menu>
+
+        </item>
+
+    <!--item android:title="Communicate">
+
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+
+                android:id="@+id/nav_shared"
+                android:title="Share"
+                android:icon="@drawable/icons8_menu_50px_2"/>
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate Us"
+                android:icon="@drawable/icons8_menu_50px_2"/>
+            </group>
+        </menu>
+
+    </item> -->
+</menu>
